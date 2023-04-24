@@ -16,14 +16,14 @@ The plugin consists of two files:
 1. A php file (`wol.php`), to be copied to pihole's admin php dir.
 
    ```sh
-   $ sudo cp wol.php /var/www/html/admin/wol.php
+   sudo cp wol.php /var/www/html/admin/wol.php
    ```
 
 1. A conf file (`wol.conf`), to be populated with machine names and addresses and copied to pihole's conf dir.
 
    ```sh
-   $ sudo cp sample.conf /etc/pihole/wol.conf
-   $ sudo nano /etc/pihole/wol.conf
+   sudo cp sample.conf /etc/pihole/wol.conf
+   sudo nano /etc/pihole/wol.conf
    ```
 ### Usage
 
